@@ -74,23 +74,48 @@
 
                         <div class="col-lg-12 col-md-10 col-sm-12 col-12">
                             <div class="boxSearch">
+                                <ul class="nav nav-pills">
+                                    <li class="active"><a data-toggle="pill" href="#home"> إيجار </a></li>
+                                    <li><a data-toggle="pill" href="#menu1"> بيع </a></li>
+                                </ul><br>
                                 <div class="row">
                                     <div class="col-lg-10">
-                                        <div class="input-group">
-                                            <input type="text" id="sel1" class="form-control"
-                                                placeholder=" المدينة أو الحي أو اسم الشارع">
-                                            <select name="" id="sel2" class="form-control border-left-0">
-                                                <option value="" selected disabled> غرف </option>
-                                                <option value=""> ستوديو </option>
-                                                <option value=""> غرفة واحدة </option>
-                                            </select>
-                                            <select name="" id="sel3" class="form-control">
-                                                <option value="" selected disabled> السعر </option>
-                                                <option value=""> 10000 - 500000 </option>
-                                                <option value=""> 500000 - 100000 </option>
-                                            </select>
-                                            <br><br>
-                                        </div><br>
+                                        <div class="tab-content">
+                                            <div id="home" class="tab-pane fade show in active">
+                                                <div class="input-group">
+                                                    <input type="text" id="sel1" class="form-control"
+                                                        placeholder=" المدينة أو الحي أو اسم الشارع">
+                                                    <select name="" id="sel2" class="form-control border-left-0">
+                                                        <option value="" selected disabled> غرف </option>
+                                                        <option value=""> ستوديو </option>
+                                                        <option value=""> غرفة واحدة </option>
+                                                    </select>
+                                                    <select name="" id="sel3" class="form-control">
+                                                        <option value="" selected disabled> السعر </option>
+                                                        <option value=""> 10000 - 500000 </option>
+                                                        <option value=""> 500000 - 100000 </option>
+                                                    </select>
+                                                    
+                                                </div>
+                                            </div>
+                                            <div id="menu1" class="tab-pane">
+                                                <div class="input-group">
+                                                    <input type="text" id="sel1" class="form-control"
+                                                        placeholder=" المدينة أو الحي أو اسم الشارع">
+                                                    <select name="" id="sel2" class="form-control border-left-0">
+                                                        <option value="" selected disabled> غرف </option>
+                                                        <option value=""> ستوديو </option>
+                                                        <option value=""> غرفة واحدة </option>
+                                                    </select>
+                                                    <select name="" id="sel3" class="form-control">
+                                                        <option value="" selected disabled> السعر </option>
+                                                        <option value=""> 10000 - 500000 </option>
+                                                        <option value=""> 500000 - 100000 </option>
+                                                    </select>
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                     <div class="col-lg-2">
                                         <button class="btn btnSearch text-white" id="sel4"><i class="fa fa-search"></i> بحث </button>

@@ -31,6 +31,14 @@
     background-color: rgba(0,0,0,.65);
     padding: 14px;
 }
+.boxSearch .nav li a{
+    color: white;
+    padding: 14px;
+}
+.boxSearch .nav li .active{
+    color: #17bbc1;
+}
+
 .btnSerch{
     height: 45px;width: 100px;border-radius: 20px 0px 0px 20px;
 }
