@@ -15,9 +15,15 @@
 .navbar .navbar-nav .nav-item{
     padding: 2px 10px;
 }
+.tabbtn{
+    margin-right: 0px;
+}
+.search .fafa{
+    color: #f6755b;
+}
 /* ------------------------------------------ */
 .dd{
-    background: url(../images/rest.jpg);
+    background: url(../images/cover.jpg);
     width: 100%;
     background-size: cover;
 }
@@ -106,12 +112,20 @@
 .search .spn2 a:hover{
     text-decoration: none;
 }
+.mostSearch a{
+    font-size: 14px;
+    line-height: 32px;
+    font-weight: 400;
+    text-decoration: underline;
+    color: #17bbc1;
+}
 /* ---------------------------------------- */
 .companies .image{
     text-align: center;
     background-color: #fff;
     width: 100%;
     height: 200px;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
 }
 .companies .image img{
     max-width: 95%;
@@ -121,6 +135,12 @@
 }
 .companies a{
     color: #535353;
+}
+.companies{
+    margin-top: -2rem
+}
+.companies .jumbotron{
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
 }
 /* ================================================= */
 .imageText {
@@ -144,11 +164,14 @@
     font-size: 14px;
 }
 .btnSearch{
-    width: 100px;
+    width: 130px;
     background-color: #17bbc1;
 }
+.footr{
+    background-color: #e5e5e5;
+}
 .footr a{
-    color: black;
+    color: #535353;
 }
 .footr p{
     font-size: 18px;
@@ -160,4 +183,52 @@
 }
 .awsome a:hover{
     color: #17bbc1;
+}
+/* ======================================= page Tabs Page ====================== */
+.hrStyle{
+    border: 1px solid #667276;
+}
+/* ======================================= policy page ========================*/
+.policyPage h4,p{
+    color: #667276;
+}
+/* ========================================== log in page ===================== */
+.login{
+    color: white;
+    padding: 2rem;
+    background-size: cover;
+    height: 10rem;
+    background: url('../images/keys.jpg');
+}
+
+.registration .input-group{
+    width: 80%;
+}
+.btnDanger{
+    background-color: #f6755b;
+    color: white;
+    font-weight: bold;
+}
+.cookies{
+    font-size: 12px;
+}
+/* =================================== Agent Page ======================== */
+.agent{
+    background: url(../images/cover.jpg);
+    width: 100%;
+    background-size: cover;
+    color: white;
+    padding: 10px;
+}
+.pagination .page-item{
+    margin: 2px;
+}
+.pagination .page-item .page-link{
+    color: black;
+}
+.page-item.active .page-link{
+    border: none;
+    color: white;
+    border-radius: 0;
+    background-color: #17bbc1 !important;
 }
