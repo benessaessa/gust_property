@@ -38,6 +38,14 @@
 .boxSearch .nav li .active{
     color: #17bbc1;
 }
+.mostGood img{
+    width: 90%;
+    height: 150px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    padding-top: 10px;
+}
 
 .btnSerch{
     height: 45px;width: 100px;border-radius: 20px 0px 0px 20px;
@@ -51,7 +59,7 @@
     height: 45px;
 }
 #sel3{
-    height: 45px;margin-left: -2px;
+    height: 45px;
     width: 10%;
     border-radius: 5px 0px 0px 5px;
 }
@@ -67,8 +75,17 @@
 @media screen and (max-width: 770px) {
     .serchDiv {
         margin-top: 4px;
-      text-align: center;
-      
+        text-align: center;
+    }
+    .input1{
+        width: 100% !important;
+        margin-top: 10px;
+    }
+    .sideHide{
+        display: none;
+    }
+    .input2{
+        display: none;
     }
     .btnSerch{
         width: 100%;
@@ -76,21 +93,25 @@
     }
     #sel1{
         margin: 4px;
-        border-radius: 20px;
-        width: 45%;
+        border-radius: 5px;
+        width: 100%;
         height: 40px;
     }
     #sel2{
         margin: 4px;
-        border-radius: 20px;
-        width: 45%;
+        border-radius: 5px;
+        width: 100%;
         height: 40px;
     }
     #sel3{
         margin-top: 4px;
-        border-radius: 20px 20px 20px 20px;
+        border-radius: 5px;
         width: 70%;
         height: 40px;
+    }
+    #sel4{
+        margin-top: 10px;
+        border-radius: 10px;
     }
 
 }
@@ -239,4 +260,7 @@
     color: white;
     border-radius: 0;
     background-color: #17bbc1 !important;
+}
+.hidenModal{
+    display: none;
 }

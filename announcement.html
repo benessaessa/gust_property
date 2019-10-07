@@ -11,7 +11,7 @@
   </head>
   <body>
       <div class="container pt-3 hedAnnouncement">
-        <div class="row sticky-top" dir="rtl">
+        <div class="row sticky-top bg-white" dir="rtl">
           <div class="col-lg-8 col-8">
             <div class="bg-white">
               <h4 class="text-right"> 1 Bed Apt, Belgravia Heights I, JVC No Commission </h4>
@@ -21,7 +21,7 @@
               </h6><br>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-4 col-4">
             <div class="bg-white">
                 <h3 class="text-center">د.إ 891,828</h3>
                 <p class="text-center mb-2"><a href="#">Est mortgage: 3,439 AED/month</a></p>
@@ -245,16 +245,16 @@
                   <div class="text-right">
                     <div class="row">
                       <div class="col-lg-8">
-                        <form class="form-group divWillHide">
+                        <form action="#" class="form-group divWillHide">
                           <div class="container-fluid mt-1">
                             <div class="input-group mb-3">
-                              <input type="text" class="form-control" dir="rtl" placeholder="الإسم" aria-label="Amount (to the nearest dollar)">
+                              <input required type="text" class="form-control" dir="rtl" placeholder="الإسم" aria-label="Amount (to the nearest dollar)">
                               <div class="input-group-prepend">
                                   <span class="input-group-text"><i class="fa fa-user"></i></span>
                               </div>                                    
                             </div>
                             <div class="input-group mb-3">
-                              <input type="text" class="form-control" dir="rtl" placeholder="عنوان البريد الإلكتروني" aria-label="Amount (to the nearest dollar)">
+                              <input type="text" required class="form-control" dir="rtl" placeholder="عنوان البريد الإلكتروني" aria-label="Amount (to the nearest dollar)">
                               <div class="input-group-prepend">
                                   <span class="input-group-text"><i class="fa fa-envelope"></i></span>
                               </div>                                    
@@ -262,18 +262,22 @@
                             <div class="input-group" dir="rtl">
                               
                               <div class="input-group-append">
-                                <select id="button-addon1">
+                                <select id="button-addon1" required>
                                   <option> <i class="fa fa-flag"></i> +20 </option>
                                 </select>
                               </div>
-                              <input type="text" dir="ltr" required class="form-control text-right" placeholder="رقم الموبايل" 
+                              <input type="text" required dir="ltr"  class="form-control text-right" placeholder="رقم الموبايل" 
                               aria-label="Example text with button addon" aria-describedby="button-addon1">
                             </div><br>
-                            <textarea name="" dir="rtl" placeholder="السلام عليكم، وجدت هذا العقار على justproperty.com. الرجاء ارسال المزيد من المعلومات عن العقار.شكراً" class="form-control" rows="5"></textarea><br>
-                            <button class="btn btn-block btnDanger"> <i class="fa fa-envelope"></i> إستفسر الآن</button>
+                            <textarea required dir="rtl" placeholder="السلام عليكم، وجدت هذا العقار على justproperty.com. الرجاء ارسال المزيد من المعلومات عن العقار.شكراً" class="form-control" rows="5"></textarea><br>
+                            <button type="submit" class="btn btn-block btnDanger showBtn"> <i class="fa fa-envelope"></i> إستفسر الآن</input>
                           </div>
+                          <p class="text-right mt-3"><small>بتسليم هذه استمارة، أوافق على الشّروط والأحكام و سياسة الخصوصيّة للموقع.</small></p>
                         </form>
-                        <p class="text-right"><small>بتسليم هذه استمارة، أوافق على الشّروط والأحكام و سياسة الخصوصيّة للموقع.</small></p>
+                        <div class="hidenModal">
+                          <h1> شكرا للتسجيل </h1>
+                          <p>رقم التليفون : 01114205243</p>
+                        </div>
                       </div>
                       <div class="col-lg-4 border-left">
                         

@@ -1,18 +1,12 @@
 $(document).ready(function(){
     $("#showImage").click(function(){
       $('#imageHide').css("display","block");
-        });againHide
+        });
       $("#againHide").click(function(){
           $("#imageHide").css("display","none");
       });
       $('.showBtn').click(function(){
         $('.divWillHide').hide();
         $('.hidenModal').show();
-      });
-      $('#showside').click(function(){
-        $('.inptgrp').css("display","block");
-      });
-      $('#showside').click(function(){
-        $('.sidebr').css("display","block");
       });
   });
